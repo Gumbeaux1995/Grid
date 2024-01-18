@@ -1,53 +1,20 @@
-.grid {
-    background-color: bisque;
-    height: 40vh;
-      display: grid;
-    margin-bottom: 10px;
-
-      grid-template-areas:
-        "two    three   .    five    five"
-        "one    one     one      five    five"
-        "one    one     one      five    five"
-        "four   .       .           five    five";    
-        gap: 10px;
-}
-
-.flex {
-    background-color: coral;
-    height: 40vh;
-}
-
-.one {
-    grid-area: one;
-    background-color: cyan;
-}
-
-.two {
-    grid-area: two;
-    background-color: greenyellow;
-
-   
-}
-
-.three {
-    grid-area: three;
-    background-color: darkslateblue;
-
-
-}
-
-.four {
-    grid-area: four;
-    background-color: cornflowerblue;
-
+body {
+    overflow-x: hidden;
     
 }
-
-.five {
-    grid-area: five;
-    background-color: lightsalmon;
+header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
 }
-.child {
-    padding: 5px;
-}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: ;
 
+    flex-grow: 1;
+}
+#icon {
+    height: 50px;
+    width: auto;
+}
