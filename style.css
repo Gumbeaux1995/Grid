@@ -5,11 +5,11 @@
     margin-bottom: 10px;
 
       grid-template-areas:
-        "two     three    five"
-        "one     one        five"
-        "one    one        five"
-        "four    .        five";
-        grid-template-rows: [x] 50px [y] 120px [z] 700 px;
+        "two    three   .    five    five"
+        "one    one     one      five    five"
+        "one    one     one      five    five"
+        "four   .       .           five    five";    
+        gap: 10px;
 }
 
 .flex {
@@ -46,7 +46,8 @@
 .five {
     grid-area: five;
     background-color: lightsalmon;
-
-   
+}
+.child {
+    padding: 5px;
 }
 
